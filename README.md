@@ -1,11 +1,11 @@
-# 🌿 Spring Security & JWT 기술 세미나
+# 🌿 Spring Security & JWT 기술세미나
 
 [![상세 내용](https://img.shields.io/badge/📘_기술_세미나_보러가기-005BBB?style=for-the-badge)](https://github.com/andytjdqls/Security-JWT/blob/main/README.md)
 [![발표 자료 보기](https://img.shields.io/badge/📢_발표자료-FF6F00?style=for-the-badge)](발표자료.pdf)
 
 
 
-## 📕 기술 세미나 요약
+## 📕 기술세미나 컨텐츠
 
 1. **Spring Security는 인증(Authentication)과 인가(Authorization)을 담당하는 강력한 보안 프레임워크**로, 여러 필터를 통해 요청을 검증함.
 2. **기존의 세션 기반 인증**은 서버에서 세션을 관리하는 방식으로 보안성이 높지만 **확장성이 떨어지는 단점**이 있음.
@@ -16,7 +16,7 @@
 <br>
 
 
-## 📌 기술 세미나 주요 내용
+## 📌 기술세미나 주요 내용
 
 ✅ 인증 흐름(Authentication Flow)
 - Spring Security 필터 체인 구조 및 요청 흐름 분석
