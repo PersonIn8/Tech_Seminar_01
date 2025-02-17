@@ -1,11 +1,11 @@
-# 🌿 Spring Security & JWT
+# 🌿 Spring Security & JWT 기술 세미나
 
-[![상세 학습 내용](https://img.shields.io/badge/📘_학습_내용_보러가기-005BBB?style=for-the-badge)](https://github.com/andytjdqls/Security-JWT/blob/main/README.md)
+[![상세 내용](https://img.shields.io/badge/📘_기술_세미나_보러가기-005BBB?style=for-the-badge)](https://github.com/andytjdqls/Security-JWT/blob/main/README.md)
 [![발표 자료 보기](https://img.shields.io/badge/📢_발표자료-FF6F00?style=for-the-badge)](발표자료.pdf)
 
 
 
-## 📕 학습 내용
+## 📕 기술 세미나 요약
 
 1. **Spring Security는 인증(Authentication)과 인가(Authorization)을 담당하는 강력한 보안 프레임워크**로, 여러 필터를 통해 요청을 검증함.
 2. **기존의 세션 기반 인증**은 서버에서 세션을 관리하는 방식으로 보안성이 높지만 **확장성이 떨어지는 단점**이 있음.
@@ -16,7 +16,7 @@
 <br>
 
 
-## 📌 학습한 주요 내용
+## 📌 기술 세미나 주요 내용
 
 ✅ 인증 흐름(Authentication Flow)
 - Spring Security 필터 체인 구조 및 요청 흐름 분석
@@ -42,7 +42,7 @@
 
 <br>
 
-## ❔학습 및 예상 QnA
+## ❔예상 QnA
 
 ### ⁉️ **리프레시 토큰이 필요한 이유**
 - 액세스 토큰은 보안을 위해 **짧은 만료 시간**을 갖도록 설정됨 (예: 15분 ~ 1시간).
@@ -164,7 +164,7 @@ JWE는 이를 해결하기 위해 Payload를 암호화하여 보안성을 강화
 
 
 
-## 🎤 발표 QnA
+## 🎤 기술 세미나 발표 QnA
 
 ### 사용자가 API 요청시 jwt토큰을 인증할텐데 개발 시에 모든 API에 인증 &인가 로직을 구현해야 하나요. jwt를 사용할때 민감한 정보는 넣지 않는다고 했는데 사용자 식별은 어떻게 하나요?
 
