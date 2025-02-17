@@ -1,7 +1,7 @@
 # 🌿 Spring Security & JWT
 
 [![상세 학습 내용](https://img.shields.io/badge/📘_학습_내용_보러가기-005BBB?style=for-the-badge)](https://github.com/andytjdqls/Security-JWT/blob/main/README.md)
-[![발표 자료 보기](https://img.shields.io/badge/📢_발표자료-FF6F00?style=for-the-badge)](발표.PPT)
+[![발표 자료 보기](https://img.shields.io/badge/📢_발표자료-FF6F00?style=for-the-badge)](발표자료.pdf)
 
 
 
