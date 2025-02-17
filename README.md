@@ -134,7 +134,21 @@ JWT의 OAuth 2.0과의 높은 호환성
 - BCryptPasswordEncoder -> 암호화
 
 📍 이러한 기능들을 제공하고 있기에 토큰기반의 Stateless한 인증 시스템을 구축할 수 있기 때문에 사용
+<br>
 
+### ❓**세션의 저장소가 서버라 해서 왜 쿠키 크기에 제한이 없어진다고 이야기 할 수 있나요?**
+클라이언트의 쿠키 크기 제한을 받지 않음.
+클라이언트는 **세션 ID(보통 32~128바이트 크기)**만 저장하고,
+실제 데이터는 서버(Redis, DB, 메모리 등)에 저장함.
+즉, 클라이언트의 쿠키 크기 제한(4KB) 문제를 해결할 수 있음.
+로그인 정보, 사용자 권한, 임시 데이터 등을 더 많이 저장 가능.
+
+
+<br>
+
+### ❓**왜 JWT와 Spring Security Framework를 알기 위해 쿠키, 세션, 토큰에 대해서 알아야하나요?**
+브라우저마다 다르지만, 쿠키 1개의 크기는 보통 4KB(4096바이트)로 제한
+이는 초기 웹 환경에서 클라이언트의 저장 공간과 네트워크 비용을 고려하여 4KB로 설계됨.
 
 <br>
 
@@ -142,6 +156,12 @@ JWT의 OAuth 2.0과의 높은 호환성
 웹 인증 방식의 기본 개념이기 때문에 알아야 하며, JWT는 기존 세션 기반 인증과 다른 방식으로 동작하기 때문에 알아야함
 
 <br>
+
+### ❓**PayLoad에 있는 정보를 암호화하는 방식 중 JWE는 무엇인가?**
+**JWE (JSON Web Encryption)** 는 JWT의 Payload를 암호화하는 표준 방식이야.
+기본적으로 JWT는 Base64Url 인코딩만 되어 있을 뿐, 암호화가 적용되지 않아서 Payload에 포함된 정보가 노출될 위험이 있음.
+JWE는 이를 해결하기 위해 Payload를 암호화하여 보안성을 강화
+
 
 ## 👨‍👨‍👦‍👦 팀원 소개  
 | <img src="https://github.com/wns5120.png" width="200px"> | <img src="https://github.com/JaeHee-devSpace.png" width="200px"> | <img src="https://github.com/andytjdqls.png" width="200px"> | <img src="https://github.com/wild-turkey.png" width="200px"> |
